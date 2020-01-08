@@ -1,0 +1,71 @@
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesFormulaire.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <title>Bootstrap</title>
+    <script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+   </script>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+    <header>
+    <!-- Image and text -->
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <img src="IMG/garage.jpg" width="50" height="50" class="d-inline-block align-top" alt="">  <strong>Menu principal</strong>  
+        </a> 
+    </nav>
+    </header>
+
+
+
+  
+        <form >
+          <div class="form-group">
+             <label>Nom de Famille</label>
+              <input type="text" class="form-control" placeholder="Dupont">
+          </div>
+          <div class="form-group ">
+              <label>Nom de Famille</label>
+              <input type="text" class="form-control" placeholder="Pierre">
+          </div>
+          <div class="form-group">
+              <label>Adresse</label>
+              <input type="text" class="form-control" placeholder="19 rue des lilas" data-toggle="tooltip" data-placement="top" title="Ajouter le type et le nom de la voie">
+          </div>
+           <div class="form-group">
+              <label>Code postal</label>
+              <input type="text" class="form-control" placeholder="69000" data-toggle="tooltip" data-placement="left" title="Ajouter votre code postal - 5 chiffres">
+          </div>           
+
+          <div class="form-group">
+              <label>Ville:</label><br>
+              <input type="texte" class="form-control" placeholder="Lyon" data-toggle="tooltip" data-placement="left" title="Ajouter le nom de vote ville" >
+                  </div>
+
+          <div class="form-group -animated -overlayed">
+            <label for="exampleFormControlTextarea1">Nom Créateur fiche</label>
+            <input type="text" class="form-control" data-toggle="tooltip" data-placement="top" title="Ajouter le nom de Famille du créateur de la fiche"> 
+          </div>
+        <button type="submit" class="btn btn-primary">Valider</button>
+        </form>  
+
+        
+        
+        
+    </div>
+    <script src="js/jquery-3.4.1.min.js" ></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"> </script>
+  </body>
+</html>
